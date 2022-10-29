@@ -5,7 +5,7 @@ SRC := src/
 TARGET := main.out
 
 all: main 
-intruso: 
+intruder: 
 	$(CC) $(CFLAGS) -c $(SRC)intruder.cpp -o $(BUILD)intruder.o
 
 main: intruder
