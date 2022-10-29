@@ -1,7 +1,7 @@
 #include <iostream>
 #include "intruder.hpp"
 
-void Intruder::set_pass_vazada(std::string leaked){
+void Intruder::set_senha_vazada(std::string leaked){
     
     std::map<char, std::pair<char, char>> code;
     std::vector<char> pass;
