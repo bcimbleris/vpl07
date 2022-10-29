@@ -4,7 +4,7 @@
 int main(){
     int num_entradas, i;
     std::string senha;
-    Intruso intruso;
+    Intruder intruder;
     
     std::cin >> num_entradas;
     std::cin.ignore();
