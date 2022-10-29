@@ -3,7 +3,7 @@
 #include <vector>
 #include <map>
 
-class Intruso{
+class Intruder{
     std::vector<std::pair<std::map<char, std::pair<char, char>>, std::vector<char>>> pass_storage;
 
     public:
